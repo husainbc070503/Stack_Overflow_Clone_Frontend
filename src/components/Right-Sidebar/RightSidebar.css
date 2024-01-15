@@ -1,0 +1,30 @@
+.right-side-nav {
+    padding-top: 7rem;
+    padding-bottom: 2rem;
+}
+
+.right-side-card .heading {
+    background: #fbf3d5;
+    border: solid 1px #f1e5bc;
+}
+
+.right-side-card .body {
+    padding: 16px;
+    background: #fdf7e2;
+    border: solid 1px #f1e5bc;
+}
+
+.right-side-tags {
+    border: solid 1px #e3e6e8;
+    background: #F0F0F0;
+    margin: 15px 0;
+}
+
+.right-side-tags .heading {
+    background-color: #fff;
+    border-bottom: 1px solid #e3e6e8;
+}
+
+.right-side-tags .tags {
+    padding: 16px;
+}

@@ -1,0 +1,25 @@
+.Box.login-form {
+    width: 450px;
+    max-width: 100%;
+    margin: auto;
+    background: #fff;
+    padding: 25px 20px;
+    border-radius: 8px;
+}
+
+.Box.reg-form {
+    background: #fff;
+    width: 100%;
+    padding: 25px 20px;
+    border-radius: 8px;
+}
+
+.img {
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+.link {
+    text-decoration: none;
+}

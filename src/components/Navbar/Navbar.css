@@ -1,0 +1,99 @@
+.AppBar.navbar {
+    background: #F5F7F8;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.AppBar.navbar .Toolbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 240px;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+}
+
+.links {
+    padding: 0 10px;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.links .nav-link {
+    font-family: 'Noto Sans';
+    font-weight: bold;
+    color: #000;
+    text-decoration: none;
+    margin: 0 20px;
+}
+
+.nav-icon {
+    display: none;
+}
+
+.Menu.profile-menu {
+    margin-top: 50px;
+    margin-left: 35px;
+}
+
+@media only screen and (max-width: 890px) {
+    .icon {
+        flex: 1;
+        text-align: end;
+    }
+
+    .nav-icon {
+        display: block;
+        color: #000;
+        font-weight: bold;
+    }
+
+    .AppBar.navbar {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .logo {
+        width: 160px;
+    }
+
+    .links {
+        padding: 10px;
+        position: absolute;
+        top: -750px;
+        left: 0;
+        width: 100%;
+        height: auto;
+        background: #F5F7F8;
+        transition: top 0.4s;
+        z-index: -1;
+    }
+
+    .links.open-link {
+        top: 100%
+    }
+
+    .FormControl.search-box {
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    .Menu.profile-menu {
+        margin-left: 0;
+    }
+
+    .Button.login {
+        margin: 0 !important;
+        margin-left: 10px !important;
+    }
+}

@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #e6e6e4;
+}
+
+.Container.container {
+  padding: 0 8%;
+}
+
+.auth-container {
+  margin: 7rem 0;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
