@@ -1,3 +1,7 @@
+# Screenshots
+![Screenshot 2024-01-15 233343](https://github.com/husainbc070503/Stack_Overflow_Clone_Frontend/assets/90381568/243b2c2b-cfbc-4226-93c8-f6c48efdfd92)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
